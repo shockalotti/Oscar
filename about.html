@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meet Oscar Bentley, the grower behind Oscar's Timber in Kaitaia. From musician and teacher to passionate sustainable woodworker in Northland.">
+    <title>About Oscar Bentley | Oscar's Timber Story | Kaitaia, NZ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Add Favicon links here -->
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="img/logo.jpg" alt="Oscar's Timber Logo">
+                <!-- Optional: Add site name text alongside logo -->
+                <!-- <span>Oscar's Timber</span> -->
+            </a>
+            <nav class="main-nav" id="main-nav">
+                <button class="nav-close-btn" id="nav-close-btn" aria-label="Close menu">
+                    <img src="assets/icons/close-icon.svg" alt="">
+                </button>
+                <ul>
+                    <li><a href="index.html">Home</a></li> <!-- Removed active class -->
+                    <li class="dropdown">
+                        <a href="index.html#featured-timber">Wood Types <span class="dropdown-arrow">▾</span></a> <!-- Link to section on index -->
+                        <ul class="dropdown-menu">
+                            <li><a href="timber/puriri.html">Puriri</a></li>
+                            <li><a href="timber/redwood.html">Redwood</a></li>
+                            <li><a href="timber/blackwood.html">Blackwood</a></li>
+                            <li><a href="timber/eucalyptus.html">Eucalyptus</a></li>
+                            <li><a href="timber/totara.html">Totara</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html" class="active">About Oscar</a></li> <!-- Added active class -->
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle-btn" id="nav-toggle-btn" aria-label="Open menu">
+                <img src="assets/icons/menu-icon.svg" alt="">
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header section-padding bg-light">
+             <div class="container">
+                 <h1>The Story Behind the Timber</h1>
+                 <p class="subtitle">Meet Oscar Bentley - Grower, Guardian, Wood Enthusiast</p>
+             </div>
+        </section>
+
+        <section class="about-content section-padding">
+            <div class="container">
+                <div class="grid-col-2">
+                     <div>
+                         <h2>Scientist, Teacher, Musician, Forester</h2>
+                         <p>In the windswept landscapes of the Far North, Oscar Bentley has cultivated more than just a forest—he's nurtured a life rich with passion, science, and a deep connection to the natural world. For nearly two decades, he inspired young minds as a dedicated science and chemistry teacher at Kaitaia College.</p>
+                         <p>But Oscar's creative spirit couldn't be contained. He founded "The Pitz", a student band that became a launchpad for musical talent, proving his mentorship extended beyond the classroom. His heart, however, remained tethered to the land.</p>
+                         <p>Before a teaching stint in Brunei, Oscar purchased a farm and, with scientific precision and environmental respect, began planting a diverse collection of native and exotic trees—Puriri, Rimu, Totara, Redwood, and more. Each sapling was a promise to the future.</p>
+                     </div>
+                     <div>
+                         <img src="img/oscar-profile.jpg" alt="Oscar Bentley in his timber grove" class="img-responsive rounded shadow">
+                     </div>
+                </div>
+
+                 <div class="grid-col-2 reverse-grid section-padding-top">
+                     <div>
+                          <img src="img/timber-stack-detail.jpg" alt="Carefully stacked timber drying" class="img-responsive rounded shadow">
+                     </div>
+                    <div>
+                        <h2>A Forest's Whisper, A Timber's Story</h2>
+                        <p>Returning after more than a decade, Oscar discovered a thriving forest where sparse land once stood. It was then he experienced something profound: a connection, almost a communication, with his trees—a mystery that, as a trained scientist, he still wrestles with.</p>
+                        <p>Initially, milling these living entities felt wrong. But responsible forest management sometimes requires felling trees for new growth. As beautiful timber accumulated, his wife playfully challenged, "How many coffee tables are you planning to make?!"</p>
+                        <p>This sparked a realization: the trees had a further purpose. Their stories could be shared, transformed by craftsmen into functional art that honoured their origin. Oscar's Timber isn't just wood; it's a piece of the Far North, imbued with patience, care, and the unique spirit of its grower.</p>
+                        <p>Today, Oscar is a local icon—father, teacher, mentor, musician, and guardian of a forest that speaks in ways beyond science. He shares his timber not just as a product, but as a connection to nature's resilience and mystery.</p>
+                        <a href="contact.html" class="btn btn-primary">Talk to Oscar About Your Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <!-- ... (Same footer code as index.html) ... -->
+    </footer>
+
+    <script src="js/main.js"></script> <!-- Updated path -->
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

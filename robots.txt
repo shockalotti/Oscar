@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Disallow access to backend function paths if hosted on Netlify/Vercel etc.
+# Adjust based on actual hosting setup if needed
+Disallow: /.netlify/
+Disallow: /api/
+
+Sitemap: https://www.oscarstimber.co.nz/sitemap.xml # Replace with actual domain

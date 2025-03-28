@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Oscar Bentley at Oscar's Timber in Kaitaia, Northland for inquiries about sustainable timber - Puriri, Redwood, Blackwood, Eucalyptus, Totara.">
+    <title>Contact Oscar's Timber | Kaitaia, Northland</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Add Favicon links here -->
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="img/logo.jpg" alt="Oscar's Timber Logo">
+                <!-- Optional: Add site name text alongside logo -->
+                <!-- <span>Oscar's Timber</span> -->
+            </a>
+            <nav class="main-nav" id="main-nav">
+                <button class="nav-close-btn" id="nav-close-btn" aria-label="Close menu">
+                    <img src="assets/icons/close-icon.svg" alt="">
+                </button>
+                <ul>
+                    <li><a href="index.html">Home</a></li> <!-- Removed active class -->
+                    <li class="dropdown">
+                        <a href="index.html#featured-timber">Wood Types <span class="dropdown-arrow">▾</span></a> <!-- Link to section on index -->
+                        <ul class="dropdown-menu">
+                            <li><a href="timber/puriri.html">Puriri</a></li>
+                            <li><a href="timber/redwood.html">Redwood</a></li>
+                            <li><a href="timber/blackwood.html">Blackwood</a></li>
+                            <li><a href="timber/eucalyptus.html">Eucalyptus</a></li>
+                            <li><a href="timber/totara.html">Totara</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About Oscar</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li> <!-- Added active class -->
+                </ul>
+            </nav>
+            <button class="nav-toggle-btn" id="nav-toggle-btn" aria-label="Open menu">
+                <img src="assets/icons/menu-icon.svg" alt="">
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header section-padding bg-light">
+             <div class="container">
+                 <h1>Get in Touch</h1>
+                 <p class="subtitle">Discuss your timber needs directly with Oscar.</p>
+             </div>
+        </section>
+
+        <section class="contact-details section-padding">
+            <div class="container grid-col-2">
+                <div>
+                    <h2>Contact Information</h2>
+                    <p>Oscar prefers a direct conversation to best understand your project and timber requirements. Please feel free to call or email.</p>
+                    <ul class="contact-list">
+                        <li><strong>Phone:</strong> <a href="tel:+64XXXXXXXXX">+64 XXX XXXXXX</a></li> <!-- Replace number -->
+                        <li><strong>Email:</strong> <a href="mailto:oscar.bentley.timber@email.com">oscar.bentley.timber@email.com</a></li> <!-- Replace email -->
+                        <li><strong>Location:</strong> Kaitaia, Northland, New Zealand</li>
+                        <li><strong>Inquiries:</strong> Please provide details about the timber type, dimensions, quantity, and intended use for the most helpful response.</li>
+                    </ul>
+                     <p>Site visits may be possible by appointment only.</p>
+                </div>
+                <div>
+                    <!-- Optional: Simple Contact Form (if duplicating form logic is desired) -->
+                    <!-- Or: Image related to contact/location -->
+                     <img src="img/kaitaia-landscape-hint.jpg" alt="Hint of the Kaitaia landscape" class="img-responsive rounded shadow">
+                     <!-- Placeholder image -->
+                </div>
+            </div>
+        </section>
+
+         <!-- Optional: Map Section (Duplicate from Homepage if desired) -->
+         <section class="map-section section-padding bg-light">
+             <div class="container">
+                <h3 class="text-center">Based in Kaitaia</h3>
+                 <!-- Google Map Embed -->
+                 <iframe
+                     src="https://maps.google.com/maps?q=-35.147051,173.4100393&hl=en&z=15&amp;output=embed"
+                     width="100%"
+                     height="300"
+                     style="border:0; border-radius: 8px;"
+                     allowfullscreen=""
+                     loading="lazy"
+                     referrerpolicy="no-referrer-when-downgrade">
+                 </iframe>
+             </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <!-- ... (Same footer code as index.html) ... -->
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
