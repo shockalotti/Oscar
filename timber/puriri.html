@@ -12,10 +12,11 @@
 </head>
 <body>
     <header class="site-header">
-        <!-- ... (Same header code as index.html, adjust active class & relative paths) ... -->
         <div class="container header-container">
             <a href="../index.html" class="logo"> <!-- Adjusted path -->
                 <img src="../img/logo.jpg" alt="Oscar's Timber Logo"> <!-- Adjusted path -->
+                <!-- Optional: Add site name text alongside logo -->
+               <span>Oscar's Timber</span>
             </a>
             <nav class="main-nav" id="main-nav">
                 <button class="nav-close-btn" id="nav-close-btn" aria-label="Close menu">
@@ -24,7 +25,7 @@
                 <ul>
                     <li><a href="../index.html">Home</a></li> <!-- Adjusted path -->
                     <li class="dropdown">
-                        <a href="#timber" class="active">Wood Types <span class="dropdown-arrow">▾</span></a>
+                        <a href="../index.html#featured-timber" class="active">Wood Types <span class="dropdown-arrow">▾</span></a> <!-- Adjusted path & active class -->
                         <ul class="dropdown-menu">
                             <li><a href="puriri.html" class="active">Puriri</a></li> <!-- Active class here -->
                             <li><a href="redwood.html">Redwood</a></li>
